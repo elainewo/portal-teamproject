@@ -54,9 +54,11 @@ class Games extends Component {
         <div className="gamesSite">
           {this.state.articles.map((article, i) => (
             <div className="new" key={i}>
-              <img src={article.urlToImage} alt=""></img>
-              <h2>{article.title}</h2>
-              <p>{article.description}</p>
+              <div className="beschreibung">
+                <img src={article.urlToImage} alt=""></img>
+                <h2>{article.title}</h2>
+                <p>{article.description}</p>
+              </div>
               <GamesItem click={() => this.deletePerson(i)} />
               <a href={article.url} target="blank">
                 Read More

@@ -30,7 +30,7 @@ const Home = () => {
       <section className="gaming">
         <Link className="link" to="/games">
           <span>
-            <h2>GAMING</h2>
+            <h2 className="game">GAMING</h2>
           </span>
         </Link>
       </section>
