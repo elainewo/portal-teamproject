@@ -35,7 +35,9 @@ const Home = () => {
         </Link>
       </section>
       <section className="kultur">
-        <h2>KULTUR</h2>
+        <Link className="link" to="/kultur">
+          <h2>KULTUR</h2>
+        </Link>
       </section>
     </div>
   );

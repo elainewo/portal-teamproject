@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import "./home.css";
 import Games from "./Components/Games";
 import Politik from "./Components/Politik";
+import KulturList from "./Components/KulturList";
 
 function App() {
   return (
@@ -19,9 +20,9 @@ function App() {
         <Route path="/games">
           <Games />
         </Route>
-        {/* <Route path="/kultur">
-          <Kultur />
-        </Route> */}
+        <Route path="/kultur">
+          <KulturList />
+        </Route>
       </Switch>
     </div>
   );
