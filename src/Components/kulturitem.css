@@ -1,0 +1,39 @@
+.culture-section {
+    display: flex;
+    white-space: nowrap;
+    margin-top: 5%;
+}
+
+.overlay-box {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    margin-right: 2%;
+    height: 80vh;
+}
+
+.overlay-box:hover .desc, .overlay-box:focus .desc {
+    opacity: 1;
+}
+
+.overlay-box .desc {
+    opacity: 0.01;
+    min-height: 355px;
+    font-size: 1rem;
+    height: 91.5%;
+    overflow-wrap: break-word;
+    padding: 30px 25px 20px;
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+.culuture-link {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: .2rem;
+    padding: .3rem;
+}
